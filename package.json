@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "@firstkey/elizaos-plugin",
+  "name": "@firstkeyhq/elizaos-plugin",
   "peerDependencies": {
     "@elizaos/core": ">=1.0.0"
   },
