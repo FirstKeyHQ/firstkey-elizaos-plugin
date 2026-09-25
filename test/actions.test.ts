@@ -61,7 +61,7 @@ afterEach(() => {
 
 describe("plugin shape", () => {
   it("exports a valid Plugin with 6 actions and 1 provider", () => {
-    expect(firstkeyPlugin.name).toBe("@firstkey/elizaos-plugin");
+    expect(firstkeyPlugin.name).toBe("@firstkeyhq/elizaos-plugin");
     expect(firstkeyPlugin.actions).toHaveLength(6);
     expect(firstkeyPlugin.providers).toHaveLength(1);
     const names = firstkeyPlugin.actions!.map((a) => a.name);
