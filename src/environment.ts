@@ -2,11 +2,11 @@ import { z } from "zod";
 import type { IAgentRuntime } from "@elizaos/core";
 
 /**
- * Default FirstKey MCP server endpoint (live mainnet canister
- * uwmup-gaaaa-aaaab-qhipa-cai). Streamable HTTP, JSON-RPC 2.0, open CORS.
+ * Default FirstKey MCP server endpoint (mcp.firstkey.io, backed by the live
+ * mainnet canister uwmup-gaaaa-aaaab-qhipa-cai). Streamable HTTP, JSON-RPC
+ * 2.0, open CORS.
  */
-export const DEFAULT_MCP_ENDPOINT =
-  "https://uwmup-gaaaa-aaaab-qhipa-cai.icp.net/mcp";
+export const DEFAULT_MCP_ENDPOINT = "https://mcp.firstkey.io/mcp";
 
 /** Default FirstKey Fuel checkout page (human pays by card, cycles land in the agent wallet). */
 export const DEFAULT_FUEL_URL = "https://firstkey.io/fuel";
