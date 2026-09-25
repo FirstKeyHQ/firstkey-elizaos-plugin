@@ -23,7 +23,7 @@ import { firstkeyWalletProvider } from "./providers/index.js";
  * (uwmup-gaaaa-aaaab-qhipa-cai); key material never crosses the network.
  */
 export const firstkeyPlugin: Plugin = {
-  name: "@firstkey/elizaos-plugin",
+  name: "@firstkeyhq/elizaos-plugin",
   description:
     "FirstKey — the agent-native wallet for the Internet Computer. Generate a " +
     "sovereign Ed25519 wallet, claim free faucet cycles, deploy static sites to " +

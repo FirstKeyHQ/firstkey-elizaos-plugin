@@ -1,4 +1,4 @@
-# @firstkey/elizaos-plugin
+# @firstkeyhq/elizaos-plugin
 
 **FirstKey for ElizaOS — give any Eliza agent its first ICP wallet.**
 
@@ -24,9 +24,9 @@ network.
 
 ```bash
 # inside your ElizaOS project
-npx elizaos plugins add @firstkey/elizaos-plugin
+npx elizaos plugins add @firstkeyhq/elizaos-plugin
 # or with npm:
-npm install @firstkey/elizaos-plugin
+npm install @firstkeyhq/elizaos-plugin
 ```
 
 Register it in your character file:
@@ -34,14 +34,14 @@ Register it in your character file:
 ```json
 {
   "name": "MyAgent",
-  "plugins": ["@firstkey/elizaos-plugin"]
+  "plugins": ["@firstkeyhq/elizaos-plugin"]
 }
 ```
 
 Or programmatically:
 
 ```ts
-import { firstkeyPlugin } from "@firstkey/elizaos-plugin";
+import { firstkeyPlugin } from "@firstkeyhq/elizaos-plugin";
 runtime.registerPlugin(firstkeyPlugin);
 ```
 
